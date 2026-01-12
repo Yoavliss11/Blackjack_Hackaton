@@ -1,5 +1,5 @@
 # Blackjack Client-Server Application
-Intro to Networks 2025 Hackathon
+Intro to Networks 2026 Hackathon
 
 ## Overview
 This project implements a simplified Blackjack game as a client-server application,
@@ -56,4 +56,5 @@ python server.py # Terminal 1
 python client.py # Terminal 2
 ```
 
-
+### This work is made by:
+Yoav Liss - yoavlis@post.bgu.ac.il | Ram Shiri - ramshir@post.bgu.ac.il
