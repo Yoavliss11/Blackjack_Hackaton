@@ -32,8 +32,8 @@ the number of requested rounds as a newline-terminated message.
 ## Game Rules
 - Standard 52-card deck.
 - Face cards are worth 10.
-- Aces are worth 11 and may be reduced to 1 to avoid bust.
-- Dealer hits until total is at least 17, including soft 17.
+- Aces are worth 11.
+- Dealer hits until total is at least 17.
 - No betting or splitting.
 
 ## Error Handling
