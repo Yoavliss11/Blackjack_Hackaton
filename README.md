@@ -1,5 +1,6 @@
 # Blackjack Client-Server Application
 Intro to Networks 2026 Hackathon
+Yoav Liss Ram Shiri
 
 ## Overview
 This project implements a simplified Blackjack game as a client-server application,
