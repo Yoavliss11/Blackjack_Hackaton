@@ -136,7 +136,22 @@ def format_hand(hand) -> str:
 # Main
 # -----------------------------
 def main():
-    rounds = int(input("Enter number of rounds to play: "))
+
+    while True:
+        user_input = input("Enter number of rounds to play (1-255): ").strip()
+
+        if not user_input.isdigit():
+            print("Please enter a valid number")
+            continue
+
+        rounds = int(user_input)
+
+        if not (1 <= rounds <= 255):
+            print("Number of rounds must be between 1 and 255")
+            continue
+
+        break
+
     # Create UDP socket to listen for broadcast offers from servers
     udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     udp_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
